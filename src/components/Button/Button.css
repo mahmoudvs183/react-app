@@ -1,0 +1,13 @@
+.main-buttom {
+    padding: 5px 5px;
+    height: 40px;
+    width: 140px;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 2px solid white;
+    text-align: center;
+    outline: none;
+}
+.main-buttom:hover{
+    cursor: pointer;
+}

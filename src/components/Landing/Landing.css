@@ -1,0 +1,44 @@
+.landing{
+    position: absolute;
+    top: 30%;
+    max-width: 300px;
+    min-width: 100px;
+    
+    }
+    @media (max-width:500px) {
+        .landing {
+            left: 50%;
+            max-width: 100%;
+            position: absolute;
+            text-align: center;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .landing-buttoms{
+            display: flex;
+            
+        }
+    }
+    
+
+.landing .landing-text{
+    margin-bottom: 15px;
+}
+.landing .landing-text p{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.2;
+    margin-right: 5px;
+}
+
+.landing .landing-buttoms{
+margin-bottom: 20px;
+
+}
+.landing .social{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
